@@ -1,4 +1,4 @@
-# 160 easy 
+# 160.相交链表   easy 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
         a = headA
