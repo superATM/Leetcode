@@ -1,5 +1,10 @@
 class Solution:
     def oddEvenList(self, head: ListNode) -> ListNode:
+        """
+            使用了四个指针在跑，r2 r3 跑后面，r0 r1在前面。
+            代码量比大佬复杂多，因为指针比较多，所以针对每个指针的非空判断增加了代码量
+            不过时间复杂度和空间复杂度分别是O(n)和O(1)
+        """
         r0 = head
         if head == None:
             return head
